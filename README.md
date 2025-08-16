@@ -1,4 +1,4 @@
-# Twitter US Airline Sentiment Analysis (AIML)
+# Twitter US Airline Sentiment Analysis
 
 ## Overview
 This project performs sentiment classification on tweets about U.S. airlines. Using natural language processing (NLP) and machine learning, the model predicts whether a tweet is **positive**, **neutral**, or **negative**. The analysis is based on the public Twitter US Airline Sentiment dataset.
