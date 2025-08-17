@@ -49,10 +49,17 @@ AIML-Twitter-US-Airline-Sentiment/
 ---
 
 ## Results
-- Random Forest with TF-IDF features achieved strong performance on the hold-out set
-- Include your final metrics here (e.g., Accuracy, Macro F1)
+- Final model: Random Forest with TF-IDF features
+- Accuracy: 0.79
+- Macro F1: 0.66
+- Weighted F1: 0.78
 
+**Per-class performance:**
+| Sentiment | Precision | Recall | F1-score | Support |
+|-----------|-----------|--------|----------|---------|
+| Negative  | 0.85      | 0.91   | 0.88     | 2627    |
+| Neutral   | 0.52      | 0.40   | 0.45     | 577     |
+| Positive  | 0.69      | 0.62   | 0.65     | 456     |
 
-## Results
-- Random Forest with TF-IDF features achieved strong performance on the hold-out set
-- Include your final metrics here (e.g., Accuracy, Macro F1)
+The model performs best on **negative tweets**, which dominate the dataset, while neutral tweets are harder to classify reliably.
+
