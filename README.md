@@ -33,7 +33,7 @@ This project performs sentiment classification on tweets about U.S. airlines. Us
 
 ## Repository Structure
 ```
-AIML-Twitter-US-Airline-Sentiment/
+Twitter-US-Airline-Sentiment/
 ├── Twitter US Airline Sentiment Project.ipynb # Main notebook
 ├── Twitter US Airline Sentiment Project.html # Exported notebook
 ├── Tweets.csv # Dataset (Twitter US Airline Sentiment)
